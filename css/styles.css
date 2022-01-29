@@ -246,8 +246,7 @@ ul {
 .button-flex {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .button-item {
@@ -356,9 +355,22 @@ ul {
 
 /* Work list portfolio */
 
+.portfolio-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .work-list {
   display: flex;
   flex-wrap: wrap;
+}
+
+.work-list-div {
+  padding: 20px 24px;
+
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .work-list-title,
@@ -368,12 +380,7 @@ ul {
 }
 
 .work-list-title {
-  margin-top: 20px;
   margin-bottom: 4px;
-}
-
-.work-list-text {
-  margin-bottom: 20px;
 }
 
 .item-flex {
@@ -382,10 +389,9 @@ ul {
 }
 .work-list {
   color: var(--title-text-color);
-  padding: 0;
-  margin: 0;
+
+  margin: -15px;
   list-style: none;
-  padding-bottom: 94px;
 }
 
 .work-list-link {
@@ -434,6 +440,14 @@ ul {
   display: flex;
 }
 
+.comand-item .item-flex {
+  margin-right: 30px;
+}
+
+.comand-item .item-flex:last-child {
+  margin-right: 0;
+}
+
 .topic {
   margin-top: 0;
   margin-bottom: 50px;
@@ -466,14 +480,6 @@ ul {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-}
-
-.comand-flex .item-flex {
-  margin-right: 30px;
-}
-
-.comand-flex .item-flex:last-child {
-  margin-right: 0;
 }
 
 /* Footer */
